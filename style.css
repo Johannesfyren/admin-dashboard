@@ -7,7 +7,7 @@
 .page-container{
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 1fr 9fr;
 }
 
@@ -37,12 +37,43 @@
 }
 
 
-
 .main-content{
     background-color: lightsalmon;
     grid-column: 2/-1;
     grid-row: 3 / -1;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
 }
+
+.project-container{
+    padding: 20px;
+}
+.card-container{
+    display: grid;
+    align-content: stretch;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,minmax(100px,1fr));
+    gap: 20px;
+    
+}
+.card-container .card{
+    height: 150px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ul li{
     display: flex;
