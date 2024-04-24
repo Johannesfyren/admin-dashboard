@@ -6,7 +6,7 @@
 
 .page-container{
     display: grid;
-    height: 100vh;
+    height: 110vh;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 1fr 9fr;
 }
@@ -120,7 +120,7 @@ ion-icon{
 }
 img[src="prof.png"]{
     border: 2px solid black;
-    border-radius: 100px;;
+    border-radius: 100px;
 }
 
 
@@ -129,8 +129,31 @@ img[src="prof.png"]{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 20px 20px 20px 0px;
+    font-size: 0.8em;
 }
 
+.announcement-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.announcement-items{
+
+}
+.divider{
+    height: 1px;
+    width: 90%;
+    border: 1px solid gray;
+}
+.right-content h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
 
 
 
